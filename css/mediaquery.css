@@ -1,10 +1,10 @@
-@media  (max-width: 600px){
+@media  (max-width: 700px){
     .initial{
         background-size: cover;
     }
     .initial-text h1 {
         font-size: 3em;
-        padding: 2%;
+        padding: 5% 0 5% 0;
     }
     .ButtonContat{
         padding: 3% 8%;
