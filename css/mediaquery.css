@@ -9,8 +9,10 @@
     .ButtonContat{
         padding: 3% 8%;
     }
-    .ButtonWp{
-        
+    .social-media{
+    display: none;
+    }.navbar{
+        justify-content: center;
     }
 
 }
