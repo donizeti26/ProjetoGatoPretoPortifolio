@@ -1,0 +1,16 @@
+@media  (max-width: 600px){
+    .initial{
+        background-size: cover;
+    }
+    .initial-text h1 {
+        font-size: 3em;
+        padding: 2%;
+    }
+    .ButtonContat{
+        padding: 3% 8%;
+    }
+    .ButtonWp{
+        
+    }
+
+}
