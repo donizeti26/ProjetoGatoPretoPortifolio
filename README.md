@@ -5,7 +5,7 @@ Landing Page - portfolio
 </h1>
 
 
- ![Logo do Markdown](../assets/print-project.png)
+ ![Logo do Markdown](/assets/print-project.png)
 
 
 
