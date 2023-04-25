@@ -12,11 +12,10 @@ Landing Page - portfolio
 ## :cat2: | Seções
 O site é composto por quatro seções:
 
-**1. Quem sou:** Nessa seção tenho uma descrição dizendo um pouco sobre quem sou;
-**2. Experiências & Projetos:** Abordo algumas empresas da qual prestei meus serviços na área de desenvolvimento e design. Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;;
-**3. Feedbacks:** Area com feedbacks e avaliaçoes de projetos ou feelances realizados.
-**4. Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos;
-Conhecimentos: Nele apresentamos meus conhecimentos em algumas linguagens como o foco no front-end;
+**1. Quem sou:**  
+**2. Experiências & Projetos:** 
+**3. Feedbacks:** 
+**4. Serviços:** 
 
 ## :bar_chart: | Tecnologias utilizadas
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
