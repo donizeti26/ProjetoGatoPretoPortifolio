@@ -9,6 +9,22 @@
     box-sizing: border-box;
 
 }
+
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1e1e1e;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #FECB01;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #1e1e1e;  /* creates padding around scroll thumb */
+  }
+
 .initial-text h1{
     font-family: 'Roboto', sans-serif;
     font-size: 4em;
@@ -39,6 +55,16 @@
 .social-media-lista li{
     margin: 1em;
 }
+.social-media-lista li a{
+    font-family: Roboto;
+    font-weight: 200;
+    text-decoration: none;
+    color: #E1E1E6;
+    font-size: 1.4em;
+}
+.social-media-lista li a:hover{
+    text-decoration: underline #FECB01;
+}
 .initial{
     padding: 5%;
     height: 100vh;
@@ -48,12 +74,66 @@
 
 /*--------*/
 .introduction{
-    background: #ffffff;
+    background: #111111;
 }
 
-.introduction h1{
+.title-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction .title-two h1{
         font-family: 'Roboto', sans-serif;
         font-size: 4em;
         text-align: center;
-        padding: 5% 0 5% 0;
+        padding: 1% 0 0 0;
+        width: 60%;
+        color: #E1E1E6;
+}
+.expecienceandprojects{
+    background-color: #1E1E1E;
+}
+/*----------------------*/
+.description {  display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 3fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "text-creator photo-creator"
+      "list-social photo-creator";
+  }
+  
+  .text-creator { grid-area: text-creator; }
+  
+  .list-social { grid-area: list-social; }
+  
+  .photo-creator { grid-area: photo-creator; }
+  
+.list-social ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-creator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.photo-creator img{
+    width: 70%;
+}
+.description{
+    width: 70%;
+}
+.aling-description{
+    display: flex;
+    justify-content: center;
+}
+
+.text-creator p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    text-align: right;
 }
