@@ -13,8 +13,11 @@ Landing Page - portfolio
 O site é composto por quatro seções:
 
 **1. Quem sou:**  
+
 **2. Experiências & Projetos:** 
+
 **3. Feedbacks:** 
+
 **4. Serviços:** 
 
 ## :bar_chart: | Tecnologias utilizadas
