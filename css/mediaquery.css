@@ -14,5 +14,14 @@
     }.navbar{
         justify-content: center;
     }
+    .description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .text-creator p{
+        text-align: justify;
+    }
 
 }
