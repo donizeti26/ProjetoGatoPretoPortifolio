@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
     color: #E1E1E6;
 
 }
-.initial-text , .title-two{
+.initial-text , .title-block{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,14 +96,14 @@ body::-webkit-scrollbar {
     background: #111111;
 }
 
-.title-two{
+.title-block{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.introduction .title-two h1{
+ .title-block h1{
         font-family: 'Roboto', sans-serif;
-        font-size: 4em;
+        font-size: 3em;
         text-align: center;
         padding: 1% 0 0 0;
         width: 60%;
@@ -114,9 +114,9 @@ body::-webkit-scrollbar {
 }
 /*----------------------*/
 .description {  display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 3fr 1fr;
-    gap: 0px 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 4%;
     grid-auto-flow: row;
     grid-template-areas:
       "text-creator photo-creator"
@@ -132,7 +132,13 @@ body::-webkit-scrollbar {
 .list-social ul {
     list-style: none;
     display: flex;
+    justify-content: center;
+}
+.list-social ul li{
+    display: flex;
     justify-content: space-between;
+    width: 70%;
+
 }
 
 .photo-creator{
@@ -142,6 +148,10 @@ body::-webkit-scrollbar {
 }
 .photo-creator img{
     width: 60%;
+}
+.photo-creator{
+    background:url(../assets/creator-photo.png) no-repeat;
+    width: 100%;
 }
 .description{
     width: 70%;
@@ -156,4 +166,29 @@ body::-webkit-scrollbar {
     font-size: 1.2em;
     text-align: right;
     color: #e1e1e6;
+}
+
+
+
+/*--------TERCEIRA PARTE PAGINA----------*/
+.title-block-two h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    padding: 1% 0 0 0;
+    width: 60%;
+    color: #E1E1E6;
+    
+}
+.title-block-two{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #E1E1E6;
+    font-weight:400;
 }
