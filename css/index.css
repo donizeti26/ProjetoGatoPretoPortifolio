@@ -57,14 +57,33 @@ body::-webkit-scrollbar {
 }
 .social-media-lista li a{
     font-family: Roboto;
-    font-weight: 200;
+    font-weight: 500;
     text-decoration: none;
     color: #E1E1E6;
     font-size: 1.4em;
+    position: relative;
 }
-.social-media-lista li a:hover{
-    text-decoration: underline #FECB01;
+
+/*VIDEO ME ENSINOU A FAZER RISCO ANIMADO*/
+.social-media-lista li a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: #FECB01;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.2s ease-in-out;  /* oq eu faz a animação esse-in-ou faz ser suave*/
+/*começa aqui com% o traco e com o hover fica %*/
+
 }
+
+.social-media-lista li a:hover::after{
+    width: 100%;
+}
+
+
+
 .initial{
     padding: 5%;
     height: 100vh;
