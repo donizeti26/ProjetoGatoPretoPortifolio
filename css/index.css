@@ -136,7 +136,8 @@ body::-webkit-scrollbar {
 }
 .list-social ul li{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 16px;
     width: 70%;
 
 }
@@ -147,7 +148,9 @@ body::-webkit-scrollbar {
     justify-content: center;
     object-fit: contain;
 }
-
+.photo-creator img{
+    width: 100%;
+}
 .description{
     width: 70%;
 }

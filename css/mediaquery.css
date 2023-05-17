@@ -1,4 +1,4 @@
-@media  (max-width: 700px){
+@media  (max-width: 960px){
     .initial{
         background-size: cover;
     }
@@ -26,5 +26,11 @@
     .photo-creator{
         width: 80%;
     }
+    .list-social ul{
+        display: flex;
+        justify-content: center;
+        gap: 20%;
+    }
 
+    
 }
