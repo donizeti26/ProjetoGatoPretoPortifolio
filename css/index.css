@@ -145,20 +145,16 @@ body::-webkit-scrollbar {
     width: 100%;
     display: flex;
     justify-content: center;
+    object-fit: contain;
 }
-.photo-creator img{
-    width: 60%;
-}
-.photo-creator{
-    background:url(../assets/creator-photo.png) no-repeat;
-    width: 100%;
-}
+
 .description{
     width: 70%;
 }
 .aling-description{
     display: flex;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .text-creator p{
