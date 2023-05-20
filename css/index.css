@@ -7,16 +7,18 @@
   --color-green: #04d361;
   box-sizing: border-box;
 }
-
-body::-webkit-scrollbar {
+:root {
+  font-size: 16px;
+}
+::-webkit-scrollbar {
   width: 12px; /* width of the entire scrollbar */
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: #1e1e1e; /* color of the tracking area */
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: #fecb01; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 3px solid #1e1e1e; /* creates padding around scroll thumb */
@@ -24,9 +26,10 @@ body::-webkit-scrollbar-thumb {
 
 .initial-text h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 4em;
+  font-size: 5rem;
   text-align: center;
   color: #e1e1e6;
+  animation: entering 0.9s ease-in-out;
 }
 .initial-text,
 .title-block {
@@ -34,7 +37,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 .initial-text a {
   font-family: "Teko", sans-serif;
@@ -43,6 +46,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 .social-media-lista {
   display: flex;
@@ -57,7 +61,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 500;
   text-decoration: none;
   color: #e1e1e6;
-  font-size: 1.4em;
+  font-size: 2rem;
   position: relative;
 }
 
@@ -97,7 +101,7 @@ body::-webkit-scrollbar-thumb {
 }
 .title-block h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 3em;
+  font-size: 4rem;
   text-align: center;
   padding: 1% 0 0 0;
   width: 60%;
@@ -110,7 +114,7 @@ body::-webkit-scrollbar-thumb {
 .description {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 70px;
   gap: 0px 4%;
   grid-auto-flow: row;
   grid-template-areas:
@@ -139,11 +143,24 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: row;
 }
+.list-social * :hover {
+  transform: scale(1.1);
+}
 #foto-creator {
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
   grid-area: photo-creator;
+  transition: transform 0.3s ease-in-out;
+}
+#div-foto-creator {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#foto-creator:hover {
+  transform: scale(1.1);
 }
 .description {
   width: 70%;
@@ -156,15 +173,22 @@ body::-webkit-scrollbar-thumb {
 
 .text-creator p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.6rem;
   text-align: right;
   color: #e1e1e6;
+  padding: 4%;
+  height: 350px;
+}
+.text-creator::-webkit-scrollbar-thumb {
+  background-color: #fecb01; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #1e1e1e; /* creates padding around scroll thumb */
 }
 
 /*--------TERCEIRA PARTE PAGINA----------*/
 .title-block-two h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
   padding: 1% 0 0 0;
   width: 60%;
@@ -177,7 +201,7 @@ body::-webkit-scrollbar-thumb {
 }
 .subtitle {
   font-family: "Roboto", sans-serif;
-  font-size: 1em;
+  font-size: 2rem;
   text-align: center;
   color: #e1e1e6;
   font-weight: 400;

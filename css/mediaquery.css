@@ -1,36 +1,42 @@
-@media  (max-width: 960px){
-    .initial{
-        background-size: cover;
-    }
-    .initial-text h1 {
-        font-size: 3em;
-        padding: 5% 0 5% 0;
-    }
-    .ButtonContat{
-        padding: 3% 8%;
-    }
-    .social-media{
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+  .initial {
+    background-size: cover;
+  }
+  .initial-text h1 {
+    font-size: 3em;
+    padding: 5% 0 5% 0;
+  }
+  .ButtonContat {
+    padding: 3% 8%;
+  }
+  .social-media {
     display: none;
-    }.navbar{
-        justify-content: center;
-    }
-    .description{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .text-creator p{
-        text-align: justify;
-    }
-    .photo-creator{
-        width: 80%;
-    }
-    .list-social ul{
-        display: flex;
-        justify-content: center;
-        gap: 20%;
-    }
-
-    
+  }
+  .navbar {
+    justify-content: center;
+  }
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-creator p {
+    text-align: justify;
+  }
+  .photo-creator {
+    width: 80%;
+  }
+  .list-social ul {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+  }
+  #foto-creator {
+    width: 450px;
+    height: 450px;
+  }
 }
